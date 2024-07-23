@@ -1,0 +1,33 @@
+
+/* CSS Code (styles.css) */
+
+.howto {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.howto-card {
+  background-color: var(--background-color);
+  border: 1px solid var(--light-color);
+  padding: 20px;
+  width: 30%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.howto-heading {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-m);
+  font-weight: 700;
+  color: var(--text-color);
+  margin: 0 0 10px;
+}
+
+.howto-description {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-xs);
+  color: #666666; /* Grey color for text */
+  margin: 0;
+}

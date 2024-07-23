@@ -1,0 +1,77 @@
+
+.tabs {
+  font-family: var(--body-font-family);
+}
+
+.tabs .tabs-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tabs .tabs-content {
+  display: flex;
+  align-items: center;
+}
+
+.tabs .tabs-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tabs .tab-item {
+  margin-right: 20px;
+}
+
+.tabs .tab-link {
+  font-size: var(--body-font-size-s);
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 5px 0;
+  position: relative;
+}
+
+.tabs .tab-link:hover,
+.tabs .tab-link:focus {
+  text-decoration: none;
+}
+
+.tabs .tab-link::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: yellow;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.tabs .tab-link:hover::after,
+.tabs .tab-link:focus::after {
+  transform: scaleX(1);
+}
+
+.tabs .help-link-container {
+  margin: 0;
+}
+
+.tabs .help-link {
+  font-size: var(--body-font-size-s);
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid var(--text-color);
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.tabs .help-link:hover,
+.tabs .help-link:focus {
+  background-color: var(--light-color);
+  text-decoration: none;
+}

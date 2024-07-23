@@ -1,0 +1,56 @@
+
+.help {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.help-item {
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none; /* Remove bullet points */
+}
+
+.help-picture img {
+  display: block;
+  margin-bottom: 10px;
+  width: 50px;
+  height: auto;
+}
+
+.help-link {
+  display: none;
+}
+
+.help-text-link {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.help-text-link:hover {
+  text-decoration: underline;
+}
+
+/* Specific styles to match the provided image */
+.help {
+  background-color: #f5f5f5;
+}
+
+.help-item {
+  max-width: 200px;
+}
+
+.help-text-link {
+  font-size: 18px;
+  color: #333;
+}

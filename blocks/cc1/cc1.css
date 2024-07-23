@@ -1,0 +1,76 @@
+
+.cc1-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: var(--background-color);
+  padding: 20px;
+}
+
+.cc1-card {
+  width: 30%;
+  background-color: var(--background-color);
+  border: 1px solid var(--light-color);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cc1-card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.cc1-heading {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-l);
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.cc1-paragraph {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-s);
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.cc1-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.cc1-list li {
+  margin-bottom: 5px;
+}
+
+.cc1-link {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.cc1-link:hover {
+  text-decoration: underline;
+  color: var(--link-hover-color);
+}
+
+.cc1-button {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: #FFD700; /* Apply yellow background similar to the image */
+  color: var(--text-color);
+  border: none;
+  border-radius: 4px;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-s);
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.cc1-button:hover {
+  background-color: #FFC700; /* Darker yellow on hover */
+}

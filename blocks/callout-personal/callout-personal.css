@@ -1,0 +1,34 @@
+
+.callout-personal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--background-color);
+}
+
+.callout-personal-heading {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-xl);
+  color: var(--text-color);
+  margin: 0;
+}
+
+.callout-personal-paragraph {
+  margin: 0;
+}
+
+.callout-personal-link {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-s);
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid var(--dark-color);
+  border-radius: 20px;
+  background-color: var(--background-color);
+}
+
+.callout-personal-link:hover {
+  background-color: var(--light-color);
+}
